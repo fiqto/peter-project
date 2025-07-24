@@ -1,0 +1,44 @@
+{
+  "smart_devices": [
+    {
+      "name": "Smart Plug 1",
+      "device_id": "your_device_id_here",
+      "ip_address": "192.168.1.100",
+      "local_key": "your_local_key_here",
+      "device_type": "outlet"
+    },
+    {
+      "name": "Smart Lamp",
+      "device_id": "another_device_id_here",
+      "ip_address": "192.168.1.101",
+      "local_key": "another_local_key_here",
+      "device_type": "light"
+    }
+  ],
+  "settings": {
+    "speech_timeout": 5,
+    "phrase_time_limit": 5,
+    "language": "id-ID",
+    "log_level": "INFO",
+    "screenshots_folder": "screenshots",
+    "wake_word": "peter"
+  },
+  "application_shortcuts": {
+    "vs code": "code",
+    "visual studio code": "code",
+    "notepad": "notepad.exe",
+    "calculator": "calc.exe",
+    "paint": "mspaint.exe",
+    "chrome": "chrome.exe",
+    "firefox": "firefox.exe",
+    "edge": "msedge.exe",
+    "word": "winword.exe",
+    "excel": "excel.exe",
+    "powerpoint": "powerpnt.exe",
+    "outlook": "outlook.exe",
+    "teams": "teams.exe",
+    "discord": "discord.exe",
+    "spotify": "spotify.exe",
+    "steam": "steam.exe"
+  }
+}
